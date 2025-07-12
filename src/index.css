@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+header {@apply bg-white dark:bg-gray-800 shadow-sm;}
+header .container {@apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4;}
+header .siteTitle {@apply text-2xl font-bold text-gray-800 dark:text-gray-100;}
+.headerLink {@apply text-gray-600 hover:text-gray-900 dark:text-white dark:hover:text-gray-200 transition-all duration-300;}
+
+.pageTitle {@apply text-3xl font-bold text-gray-800 mb-6 dark:text-white;}
+
+/* From Components */
+label {@apply block text-sm font-medium text-gray-700 dark:text-white;}
+input {@apply w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500;}
+select {@apply w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500;}
+
+
+
